@@ -1,0 +1,61 @@
+.heart-button {
+  background-color: transparent !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.heart-icon {
+  border-radius: 50%; /* Faz a borda do coração arredondada */
+  transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out; /* Adiciona uma transição suave */
+  color: #b42827 !important;
+  width: 330px;
+  height: 330px;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2); /* Aumenta o tamanho do coração em 20% */
+  border-radius: 30%; /* Reduz a borda arredondada para criar um efeito de "inchaço" */
+  filter: drop-shadow(
+    0 0 30px rgba(255, 105, 180, 0.7)
+  ); /* Aumenta a sombra para criar um efeito de "profundidade" */
+}
+
+/* .heart-button {
+    width: 100px;
+    height: 100px;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .heart-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .heart-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .heart-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #ff69b4;
+    border-radius: 50%;
+    z-index: 2;
+  } */

@@ -1,0 +1,19 @@
+.container {
+  background-image: url('https://image.lexica.art/full_webp/bbc9464a-c481-41ba-8af5-8612102435d2');
+  /* background-image: url('https://i.pinimg.com/originals/51/d8/37/51d8374126446d495348b6032202126f.jpg'); */
+  background-size: 100vw 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
