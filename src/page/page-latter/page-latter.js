@@ -40,17 +40,17 @@ const PageLatter = () => {
     setNotes(notesElements);
   }, []);
 
-  const recizeNotes = () => {
-    // notes.forEach((note) => {
-    //   if (note.classList.contains("active")) {
-    //     note.classList.remove("active");
-    //     gsap.set(note, {
-    //       height: "30%",
-    //       clearProps: "all",
-    //     });
-    //   }
-    // });
-  };
+  // const recizeNotes = () => {
+  //   // notes.forEach((note) => {
+  //   //   if (note.classList.contains("active")) {
+  //   //     note.classList.remove("active");
+  //   //     gsap.set(note, {
+  //   //       height: "30%",
+  //   //       clearProps: "all",
+  //   //     });
+  //   //   }
+  //   // });
+  // };
 
   const notesReady = () => {
     gsap.to(".js-envelop-content", {
